@@ -385,18 +385,6 @@ footer li {
   }
 }
 
-.offcanvas-title {
-  font-size: 18px;      /* perkecil biar muat di HP */
-  white-space: nowrap;  /* cegah tulisan patah baris */
-  overflow: hidden;     
-  text-overflow: ellipsis; /* kalau terlalu panjang jadi "..." */
-}
-
-.offcanvas-body .nav-link {
-  font-size: 16px;
-  padding: 8px 0;
-}
-
 
 
 
@@ -472,7 +460,7 @@ html {
 
 
 /* mobile phone */
-@media (max-width: 576px){
+@media (max-width: 360px){
 html {
     font-size: 60%;
 }
@@ -498,24 +486,5 @@ html {
 .timeline li .timeline-panel::after{
   top: 41px;
 }
-
-.mynavbar .navbar-brand,
-  .mynavbar .offcanvas-title {
-    font-size: 1.2rem;
-    white-space: normal;   /* biar bisa pindah baris */
-    text-align: center;
-  }
-}
-
-/* Biar toggle icon kelihatan */
-.navbar-toggler {
-  background-color: rgba(255,255,255,0.7); /* kasih background */
-  border-radius: 5px;
-}
-
-/* Jangan paksa hidden biar offcanvas bisa tampil penuh */
-.sticky-top {
-  overflow: visible !important;
-
 
 }
