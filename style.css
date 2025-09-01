@@ -499,4 +499,23 @@ html {
   top: 41px;
 }
 
+.mynavbar .navbar-brand,
+  .mynavbar .offcanvas-title {
+    font-size: 1.2rem;
+    white-space: normal;   /* biar bisa pindah baris */
+    text-align: center;
+  }
+}
+
+/* Biar toggle icon kelihatan */
+.navbar-toggler {
+  background-color: rgba(255,255,255,0.7); /* kasih background */
+  border-radius: 5px;
+}
+
+/* Jangan paksa hidden biar offcanvas bisa tampil penuh */
+.sticky-top {
+  overflow: visible !important;
+
+
 }
