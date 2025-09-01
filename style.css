@@ -469,6 +469,22 @@ html {
   text-align: center;
 }
 
+
+
+.mynavbar .navbar-brand,
+  .mynavbar .offcanvas-title {
+    font-size: 1.2rem;
+    text-align: center;
+    white-space: normal;
+  }
+
+.offcanvas-end .btn-close {
+  margin-left: auto;
+}
+
+
+
+
 .timeline li .timeline-image{
   width: 90px;
   height: 90px;
