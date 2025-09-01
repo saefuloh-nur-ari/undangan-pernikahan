@@ -385,6 +385,17 @@ footer li {
   }
 }
 
+.offcanvas-title {
+  font-size: 18px;      /* perkecil biar muat di HP */
+  white-space: nowrap;  /* cegah tulisan patah baris */
+  overflow: hidden;     
+  text-overflow: ellipsis; /* kalau terlalu panjang jadi "..." */
+}
+
+.offcanvas-body .nav-link {
+  font-size: 16px;
+  padding: 8px 0;
+}
 
 
 
