@@ -386,6 +386,23 @@ footer li {
 }
 
 
+/* Supaya offcanvas kanan lebih rapi */
+.offcanvas.offcanvas-end {
+  padding: 1rem;
+  text-align: left;  /* isi menu tetap rata kiri */
+}
+
+.offcanvas-end .offcanvas-title {
+  font-size: 1.2rem;
+  text-align: center; /* judulnya rata tengah */
+}
+
+.offcanvas-end .btn-close {
+  margin-left: auto; /* tombol close nempel kanan */
+}
+
+
+
 
 
 /* media query */
@@ -460,7 +477,7 @@ html {
 
 
 /* mobile phone */
-@media (max-width: 360px){
+@media (max-width: 576px){
 html {
     font-size: 60%;
 }
