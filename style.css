@@ -469,10 +469,6 @@ html {
   text-align: center;
 }
 
-.sticky-top {
-  overflow: hidden;
-}
-
 .timeline li .timeline-image{
   width: 90px;
   height: 90px;
